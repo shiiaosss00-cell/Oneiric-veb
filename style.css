@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  font-family:"ZCOOL KuaiLe",sans-serif;
+  background:#ffd6ea;
+}
+
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+  background:linear-gradient(135deg,#ffd6ea,#ffeef7,#ffd9ec);
+}
+
+.background{
+  position:fixed;
+  inset:0;
+  overflow:hidden;
+}
+
+.blur{
+  position:absolute;
+  border-radius:50%;
+  filter:blur(100px);
+  opacity:.6;
+}
+
+.blur1{
+  width:350px;
+  height:350px;
+  background:#ff7eb8;
+  left:-80px;
+  top:-80px;
+}
+
+.blur2{
+  width:300px;
+  height:300px;
+  background:#ffb6d5;
+  right:-50px;
+  bottom:-50px;
+}
+
+.hearts span{
+  position:absolute;
+  color:#ff5fa2;
+  animation:float 8s linear infinite;
+  opacity:.4;
+}
